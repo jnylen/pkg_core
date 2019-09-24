@@ -2,7 +2,7 @@ defmodule PkgCore.MixProject do
   use Mix.Project
 
   @name :pkg_core
-  @version "0.1.1"
+  @version "0.1.2"
   @description """
   The core functions for all of the pkg_* libraries.
   """
