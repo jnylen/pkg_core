@@ -1,4 +1,4 @@
-defmodule PkgCore.Utils.Logger do
+defmodule PkgCore.Logger do
   @doc """
   `debug/1` outputs in a shell a green text with the following string.
   """
