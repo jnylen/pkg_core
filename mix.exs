@@ -6,7 +6,7 @@ defmodule PkgCore.MixProject do
   @description """
   The core functions for all of the pkg_* libraries.
   """
-  @deps []
+  @deps [{:ex_doc, ">= 0.0.0", only: :dev, runtime: false}]
   @hex_package [
     name: @name,
     files: ["lib", "mix.exs", "README*", "LICENSE*"],
