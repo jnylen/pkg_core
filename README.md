@@ -9,7 +9,7 @@ The package can be installed by adding `pkg_core` to your list of dependencies i
 ```elixir
 def deps do
   [
-    {:pkg_core, "~> 0.1.2"}
+    {:pkg_core, "~> 0.1.3"}
   ]
 end
 ```

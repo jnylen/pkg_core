@@ -18,7 +18,7 @@ defmodule PkgCore.TemplateFinder do
   defp user_provided_path(pathname, app) do
     [
       PkgCore.Config.rel_dest_path(),
-      app,
+      app |> to_string(),
       "templates",
       pathname
     ]
