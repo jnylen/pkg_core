@@ -1,4 +1,4 @@
-defmodule PkgCire.Compression do
+defmodule PkgCore.Compression do
   @moduledoc """
   This module provides utilities related to file compression
   """
